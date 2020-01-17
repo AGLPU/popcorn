@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryTheme">#ffcd42</color>
+    <color name="colorPrimaryDark">#9a0007</color>
+    <color name="colorAccent">#ff6659</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="colorNavigationHeaderBackground">#212121</color>
+    <color name="colorNavigationDrawerBackgroud">#E0E0E0</color>
+    <color name="defaultTextColor">#ffffff</color>
+    <color name="colorAboutSectionIcons">#757575</color>
+
+
+</resources>
