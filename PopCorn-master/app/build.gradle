@@ -4,11 +4,11 @@ android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
     defaultConfig {
-        applicationId "com.ang.mov"
+        applicationId "com.ang.mov3"
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode 14
-        versionName "14"
+        versionCode 3
+        versionName "3"
     }
     buildTypes {
         release {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ang.mov">
+    package="com.ang.mov3">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -11,12 +11,16 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3136435737091654~2057566095"/>
+
         <activity
-            android:name="com.ang.mov.activities.IntroActivity"
+            android:name="com.ang.mov3.activities.IntroActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name="com.ang.mov.activities.MainActivity"
+            android:name="com.ang.mov3.activities.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
 
@@ -28,32 +32,32 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.ang.mov.activities.MovieDetailActivity"
+            android:name="com.ang.mov3.activities.MovieDetailActivity"
             android:label="@string/title_activity_movie_detail"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.DetailScreen" />
         <activity
-            android:name="com.ang.mov.activities.PersonDetailActivity"
+            android:name="com.ang.mov3.activities.PersonDetailActivity"
             android:label="@string/title_activity_cast_detail"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.DetailScreen" />
         <activity
-            android:name="com.ang.mov.activities.ViewAllMoviesActivity"
+            android:name="com.ang.mov3.activities.ViewAllMoviesActivity"
             android:label="@string/title_activity_view_all_movies"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.ang.mov.activities.ViewAllTVShowsActivity"
+            android:name="com.ang.mov3.activities.ViewAllTVShowsActivity"
             android:label="@string/title_activity_view_all_tvshows"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.ang.mov.activities.TVShowDetailActivity"
+            android:name="com.ang.mov3.activities.TVShowDetailActivity"
             android:label="@string/title_activity_tvshow_detail"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar.DetailScreen" />
         <activity
-            android:name="com.ang.mov.activities.SearchActivity"
+            android:name="com.ang.mov3.activities.SearchActivity"
             android:label="@string/title_activity_search"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
